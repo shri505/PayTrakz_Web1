@@ -1,0 +1,240 @@
+/* Main Container */
+.transaction-page {
+  width: 1180px;
+  height: auto;
+  position: relative;
+  left: 240px;
+  border-radius: 6px;
+  border-bottom: 7px solid rgba(236, 231, 225, 1);
+  background-color:white !important;
+  color:white;
+  padding: px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  position: relative;
+  top: 0px;
+  bottom: 4px;
+  
+}
+.transaction-box {
+  box-sizing: border-box;
+  position: relative; /* Change from fixed to relative */
+  border-radius: 8px;
+  color: #000000;
+  background-color: white;
+  border: 6px solid #ddd;
+  width: 1280px; /* Keep a fixed width to avoid horizontal scrolling */
+  margin-bottom: 15px;
+  padding: 22px;
+  overflow-y: auto !important; /* Allow vertical scrolling for internal content */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+
+/* Sidebar */
+
+
+/* Main Content */
+.transaction-main {
+  flex: 1;
+  background-color:white;
+  padding: -6px;
+}
+
+/* Topbar */
+/* Topbar Styling */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #000000; /* Change font color to white or any visible color */
+  padding: 0px 40px; /* Add padding for spacing */
+  border-radius: 8px; /* Optional: Rounded corners */
+  bottom: 85px;
+}
+
+.topbar h1 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 35.73px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  color: #000000; /* Ensure the icons and text are visible */
+}
+
+.topbar-right .icon,
+.topbar-right .profile-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.topbar-right span {
+  font-size: 16px;
+  color: #959595; /* Set font color to white */
+}
+
+/* Search Section */
+.search-section {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+/* Logo Container */
+.logo-container {
+position: relative;
+margin-right: 0px; /* Space between logo and search bar */
+display: flex;
+align-items: center;
+}
+
+/* Rectangle Logo */
+.rectangle {
+display: block;
+width: 55px; /* Adjust width as per your design */
+height: auto;
+}
+
+/* Vector Logo */
+.vector {
+position: absolute;
+top: 50%; /* Position Vector logo vertically */
+left: 50%; /* Position Vector logo horizontally */
+transform: translate(-50%, -50%); /* Center align the Vector on Rectangle */
+width: 25px; /* Adjust size as needed */
+height: auto;
+}
+
+/* Search and Filter */
+.search-filter {
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+flex: 1; /* Ensure it takes up available space */
+}
+
+.search-bar {
+padding: 12px 18px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%; /* Adjust width as needed */
+background-color: #F8F4EE;
+}
+
+.filter-button {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-button button {
+  background-color: #f8f4ee;
+  color: black;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter-button.select-days button {
+  background-color: #da6a06;
+  color: white;
+} 
+
+.filter-button .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.filter-button .dropdown button {
+  width: 100%;
+  padding: 10px 15px;
+  text-align: left;
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-button .dropdown button:hover {
+  background-color: #f8f4ee;
+  color: black;
+}
+
+.filter-button:hover .dropdown {
+  display: block;
+}
+
+
+/* Transaction Cards */
+.transaction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.transaction-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-title {
+  font-size: 16px;
+  color: #f37421;
+  margin-bottom: 8px;
+}
+
+.transaction-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.status.pending {
+  background-color: #f37421;
+}
+
+.status.approved {
+  background-color: #36c84a;
+}
+
+.status.declined {
+  background-color: #e33126;
+}
+.status.complete {
+  background-color: rgb(0, 132, 255);
+}

@@ -1,0 +1,109 @@
+.profile-page {
+  background-color: rgba(255, 255, 255, 1); /* Page background color */
+  color: rgba(0, 0, 0, 0.8); /* Text color */
+  display: flex;
+  justify-content: center; /* Center the box horizontally */
+  align-items: center; /* Center the box vertically */
+  height: 80vh; /* Full viewport height */
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.profile-box {
+  background-color: rgba(255, 252, 246, 1); /* Box background color */
+  width: 1400px; /* Square box width */
+  height: 450px; /* Square box height */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 30px; /* Padding inside the box */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between logo and title */
+  margin-bottom: 30px;
+}
+
+.profile-logo1 {
+  width: 100px; /* Adjusted size for logo */
+  height: 100px;
+  border-radius: 50%; /* Circular logo */
+}
+
+.profile-title {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.profile-form {
+  display: flex;
+  flex-direction:column;
+  padding-left: 250px;
+  margin-top: -20px;
+  gap: 30px;
+  width: 50%;
+}
+
+.profile-input1
+
+ {
+  border: 1px solid rgba(111, 108, 108, 1);
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.profile-input2{
+  border: 1px solid rgba(111, 108, 108, 1);
+  padding: 15px; /* Adjust padding for inner spacing */
+  font-size: 14px;
+  border-radius: 10px;
+  width: 150%; /* Adjust the width as needed */
+  height: 58px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  background: rgba(255, 255, 255, 1)important!;
+}
+
+.profile-input3 {
+  border: 1px solid rgba(111, 108, 108, 1);
+  margin-left: 15px;
+  padding: 15px; /* Adjust padding for inner spacing */
+  font-size: 14px;
+  border-radius: 10px;
+  width: 150%; /* Adjust the width as needed */
+  height: 58px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  background: rgba(255, 255, 255, 1)important!;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between; /* Ensures inputs are on opposite sides */
+  align-items: center; /* Vertically aligns inputs */
+  width: 100%; /* Container width */
+  margin: 2px 0; /* Add some spacing between rows if needed */
+}
+
+.update-button {
+  background: rgba(218, 106, 6, 1);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 40%;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 180px;
+}
+
+.update-button:hover {
+  background: rgba(200, 90, 5, 1); /* Slightly darker hover color */
+}

@@ -1,0 +1,57 @@
+.sidebar {
+  width: 244px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(218, 106, 6, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  z-index: 1000;
+  align-items: center;
+}
+
+.brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brand-logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 15px 0;
+  padding: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  font-style: popins;
+
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+

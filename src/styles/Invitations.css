@@ -1,0 +1,68 @@
+.invitations-page {
+    background-color: rgba(255, 255, 255, 1); /* Page background color */
+    display: flex;
+    justify-content: center; /* Center the box horizontally */
+    align-items: center; /* Center the box vertically */
+    height: 80vh; /* Full viewport height */
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .invitations-box {
+    background-color: rgba(255, 252, 246, 1); /* Box background color */
+    width: 1400px; /* Square box width */
+    height: 450px; /* Square box height */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Padding inside the box */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .invitations-header {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    margin-bottom: 30px;
+  }
+  
+  .invitations-title {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color:rgba(111, 108, 108, 1)!important;
+    margin-top: -182px;
+
+  }
+  .invitations-card{
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba(71, 8, 129, 1);
+    width: 800px;
+    height: 180px; 
+    padding: 30px;
+    color: rgba(111, 108, 108, 1);
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-top: 2px;
+  }
+  .inv-gst-text-box {
+    background: rgba(143, 9, 153, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 18px;
+    width: 120px;
+    height: 26px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+    
+  }
+  .inv-gst-text{
+    font-size: 15px;
+    margin-left: 28px;  
+  }
+  
+  

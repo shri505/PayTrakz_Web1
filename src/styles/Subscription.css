@@ -1,0 +1,131 @@
+.subscription-page {
+    background-color: rgba(255, 255, 255, 1); /* Page background color */
+    color: rgba(0, 0, 0, 0.8); /* Text color */
+    display: flex;
+    justify-content: center; /* Center the box horizontally */
+    align-items: center; /* Center the box vertically */
+    height: 80vh; /* Full viewport height */
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .subscription-box {
+    background-color: rgba(255, 252, 246, 1); /* Box background color */
+    width: 1400px; /* Container width */
+    height: 450px; /* Adjust height to fit content */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Padding inside the box */
+    display: flex;
+    align-items: flex-start; /* Align items at the start vertically */
+    gap: 80px; /* Add space between the title and card */
+    
+  }
+  
+  .subscription-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(111, 108, 108, 1);
+    margin: 0;
+    align-self: flex-start; /* Align the title at the top */
+  }
+  
+  .subscription-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 750px;
+    height: 350px; /* Automatically adjust height based on content */
+    padding: 30px;
+    color: #3b007f;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .plan-header-box {
+    background: linear-gradient(90deg, #f56b02, #ffbb00);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 125px;
+    border-radius: 25px;
+    position: absolute;
+    top: 15px;
+    right: -18px;
+    
+  }
+  
+  .plan-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3b007f;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 2px; /* Add spacing to avoid overlap with the rectangle */
+    margin-bottom: 15px;
+  }
+  
+  .currency {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .price {
+    font-size: 30px;
+  }
+  
+  .duration {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .plan-description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #3b007f;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .plan-features {
+    
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 60px;
+    line-height: 1.9;
+  }
+  
+  .plan-features li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #3b007f;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .checkmark {
+    color: #ff8800;
+    margin-right: 10px;
+  }
+  
+  .get-started-button {
+    background:linear-gradient(90deg, #f56b02, #ffbb00);
+    color: white;
+    border: none;
+    padding: 12px 300px;
+    border-radius: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: #ff7b00;
+  }
+  

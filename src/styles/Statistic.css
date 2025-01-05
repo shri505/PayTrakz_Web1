@@ -1,0 +1,189 @@
+/* General styling for the statistic page */
+.statistic-page {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  .statistic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header-icon,
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .header-right span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Statistic summary section */
+  .statistic-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  /* Summary box styling */
+  .statistic-summary-box {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .summary-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .summary-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .summary-item p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .summary-item p.green {
+    color: green;
+  }
+  
+  .summary-item p.red {
+    color: red;
+  }
+  
+  .summary-item p.black {
+    color: black;
+  }
+  
+  /* Chart card styling */
+  .chart-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .chart-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Partner analysis */
+  .partner-analysis {
+    margin: 2rem 0;
+  }
+  
+  .partner-analysis h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .partner-analysis .recharts-wrapper {
+    margin: 0 auto;
+  }
+  
+  /* Top spending section */
+  .top-spending {
+    margin: 2rem 0;
+  }
+  
+  .top-spending h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .spending-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .spending-category {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .spending-date {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .spending-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Bar chart styling */
+  .bar-chart .recharts-bar {
+    border-radius: 5px;
+  }
+  
+  /* Semi-circle progress bar */
+  .semicircle-progress {
+    position: relative;
+    width: 150px;
+    height: 75px;
+    margin: 0 auto;
+  }
+  
+  .semicircle-progress .circle {
+    position: absolute;
+    top: -75px;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+      var(--progress-color, orange) 0deg var(--progress, 0deg),
+      lightgray var(--progress, 0deg) 180deg
+    );
+  }
+  
+  .semicircle-progress .text {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
